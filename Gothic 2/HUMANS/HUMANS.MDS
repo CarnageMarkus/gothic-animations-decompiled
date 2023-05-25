@@ -10,60 +10,95 @@ Model ("HuS")
 
 	meshAndTree ("Hum_Body_Naked0.ASC" DONT_USE_MESH)
 
-// Body Meshes
+	// Body Meshes
 	registerMesh ("Hum_Body_Naked0.ASC")
 	registerMesh ("Hum_Body_Babe0.ASC")
 
-// Armor-Meshes
-	registerMesh ("Armor_Barkeeper.ASC")
+	// Armor-Meshes
+
+	// farmer
 	registerMesh ("Armor_Bau_L.ASC")
 	registerMesh ("ARMOR_BAU_M.ASC")
 	registerMesh ("Armor_BauBabe_L.ASC")
 	registerMesh ("Armor_BauBabe_M.ASC")
 
+	// citizen 
+	registerMesh ("Armor_VlkBabe_H.ASC")
+	registerMesh ("Armor_VlkBabe_M.ASC")
+	registerMesh ("Armor_VlkBabe_L.ASC")
+
+	registerMesh ("Armor_Vlk_H.ASC")
+	registerMesh ("Armor_Vlk_M.ASC")
+	registerMesh ("Armor_Vlk_L.ASC")
+
+	registerMesh ("Armor_Barkeeper.ASC")
+	registerMesh ("Armor_Smith.ASC")
+	registerMesh ("Armor_Governor.ASC")
+	registerMesh ("Armor_Judge.ASC")
+
+	// bandit
 	registerMesh ("Armor_Leather_L.ASC")
 	registerMesh ("Armor_Bdt_M.ASC")
 	registerMesh ("Armor_Bdt_H.ASC")
-	registerMesh ("Armor_Mil_L.ASC")
-	registerMesh ("Armor_Mil_M.ASC")
 	
-	registerMesh ("Armor_Pal_H.ASC")
-	registerMesh ("Armor_Sld_L.ASC")
-	registerMesh ("Armor_Sld_M.ASC")
+	// soldier
 	registerMesh ("Armor_Sld_H.ASC")
-	registerMesh ("Armor_CorAngar.ASC")
+	registerMesh ("Armor_Sld_M.ASC")
+	registerMesh ("Armor_Sld_L.ASC")
+
+	// dragon hunters
+	registerMesh ("Armor_Djg_Babe.ASC")
+	registerMesh ("Armor_Djg_Crawler.ASC")
+	registerMesh ("Armor_Djg_H.ASC")
 	registerMesh ("Armor_Djg_L.ASC")
 	registerMesh ("Armor_Djg_M.ASC")
-	registerMesh ("Armor_Djg_H.ASC")
-	registerMesh ("Armor_Djg_Crawler.ASC")
-	registerMesh ("Armor_Djg_Babe.ASC")
-	registerMesh ("Armor_Governor.ASC")
-	registerMesh ("Armor_Judge.ASC")
-	registerMesh ("Armor_Vlk_L.ASC")
-	registerMesh ("Armor_VlkBabe_L.ASC")
-	registerMesh ("Armor_Smith.ASC")
+
+	// mages
 	registerMesh ("Armor_Nov_L.ASC")
 	registerMesh ("Armor_KdF_L.ASC")
 	registerMesh ("Armor_KdF_H.ASC")
-	registerMesh ("Armor_Xardas.ASC")
-	registerMesh ("Armor_Diego.ASC")
-	registerMesh ("Armor_Lester.ASC")
-	registerMesh ("Armor_Dementor.ASC")
+
 	registerMesh ("Armor_KdW_H.ASC")
-	registerMesh ("Armor_Prisoner.ASC")
+
+	// water mage agent
+	registerMesh ("Armor_Kdw_L_Addon.ASC")
+
+	// militia
+	registerMesh ("Armor_Mil_L.ASC")
+	registerMesh ("Armor_Mil_M.ASC")
+
+	// paladin
+	registerMesh ("Armor_Pal_M.ASC")
+	registerMesh ("Armor_Pal_H.ASC")
+	
+	// pirate
 	registerMesh ("Armor_Pir_L_Addon.ASC")
 	registerMesh ("Armor_Pir_M_Addon.ASC")
 	registerMesh ("Armor_Pir_H_Addon.ASC")
-	registerMesh ("Armor_Raven_Addon.ASC")
-	registerMesh ("Armor_Pal_Skeleton.ASC")
 
-// Skelette
+	// special npc armors
+	registerMesh ("Armor_Lester.ASC")
+	registerMesh ("Armor_Diego.ASC")
+	registerMesh ("Armor_CorAngar.ASC")
+	registerMesh ("Armor_Bloodwyn_Addon.ASC")
+	registerMesh ("Armor_Raven_Addon.ASC")
+	registerMesh ("Armor_Thorus_Addon.ASC")
+	registerMesh ("Armor_Xardas.ASC")
+
+	// other
+	registerMesh ("Armor_Chaos_Addon.ASC")
+	registerMesh ("Armor_Dementor.ASC")
+	registerMesh ("Armor_Mayazombie_Addon.ASC")
+	registerMesh ("Armor_Prisoner.ASC")
+
+	// Skelette
 	registerMesh ("Ske_Body.ASC")
 	registerMesh ("Ske_Body2.ASC")
 	registerMesh ("Ske_Fly_Body.ASC")
 
-// in extremo
+	registerMesh ("Armor_Pal_Skeleton.ASC")
 
+	// in extremo
 	RegisterMesh ("Hum_IE_Flail_instrument.ASC")
 	registerMesh ("Hum_IE_Flex_Instrument.ASC")
 	registerMesh ("Hum_IE_Lutter_instrument.ASC")
