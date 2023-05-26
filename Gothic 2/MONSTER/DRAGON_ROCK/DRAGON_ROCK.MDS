@@ -183,7 +183,7 @@ Model ("Dragon")
 // STUMBLE
 ///////////////////
 		// -----------------------------------------------------------------------------------------------------------------------------
-		// Vorwärts Stolpern
+		// Vorwï¿½rts Stolpern
 			ani			("t_Stumble"					20	""				0.1 0.1 M.	"Dra_Stumble2_A01.asc"	F	1	20)
 			{
 				//*eventPFX	(6	 1	"DRAGON_STONES"	"Bip01 Neck1"	)
@@ -191,7 +191,7 @@ Model ("Dragon")
 			}
 			
 		// -----------------------------------------------------------------------------------------------------------------------------
-		// Rückwärts Stolpern
+		// Rï¿½ckwï¿½rts Stolpern
 			ani			("t_StumbleB"					20	""				0.1 0.1 M.	"Dra_Stumble2_A01.asc"	F	1	20)
 			{
 				//*eventPFX	(6	 2	"DRAGON_STONES"	"Bip01 Neck1"	)
@@ -246,7 +246,7 @@ Model ("Dragon")
 //////////////////////////
 // LOOK Autoaiming
 //////////////////////////
-// Seitenwinkel: +/- 60°	Höhenwinkel: +/- 45°
+// Seitenwinkel: +/- 60ï¿½	Hï¿½henwinkel: +/- 45ï¿½
 			ani			("c_look_1"				9	""				0.0	0.0	.	"Dra_Look_A01.asc"	F	0	0)
 			ani			("c_look_2"				9	""				0.0	0.0	.	"Dra_Look_A01.asc"	F	1	1)
 			ani			("c_look_3"				9	""				0.0	0.0	.	"Dra_Look_A01.asc"	F	2	2)
@@ -425,3 +425,4 @@ Model ("Dragon")
 			aniAlias	("t_Talk_2_Stand"				1	""			0.0	0.0	M.	"t_Stand_2_Talk"	R)
 			
 };
+}
